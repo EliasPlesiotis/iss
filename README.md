@@ -1,4 +1,6 @@
 # iss
 Desktop Application with python3
+Web Scraping, Multithreading, Tkinter
 
-Add your own images
+FOR BEST PERFOMANCE:
+At line 51 change the directory
