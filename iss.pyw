@@ -48,7 +48,7 @@ def main():
     my_location = tkinter.Label(window, bg = 'Light Blue', text='Your Position: '+str(locate()[0])+', '+str(locate()[1]), font = 'Arial')
     iss = tkinter.Label(window,bg = 'Light Blue', text='Iss Position: '+str(iss_pos()[0])+', '+str(iss_pos()[1]), font = 'Arial')
     s = tkinter.Label(window, bg = 'Light Blue', text = 'calculating iss speed', font = 'Arial')
-    os.chdir('C:\\Users\\User\\Desktop\\programming')
+    os.chdir(os.getcwd())#just to be sure
     map = tkinter.PhotoImage(file = 'land_shallow_topo_2048.gif')
     pin = tkinter.PhotoImage(file = '660011-location-512.png')
     sat = tkinter.PhotoImage(file = 'main-qimg-c466c1167580cf32d8b1ddbe52a839bc.png')
